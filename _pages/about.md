@@ -2,19 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: > 
+  "If you have built castles in the air, your work need not be lost; <br>that is where they should be. Now put the foundations under them."
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: about_pic.png
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>All you need to know is</p>
+    <p>that I live in Venice. </p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +22,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+The quote is from Thoreau's book Walden, which I never read. I actually found it a Terence Tao's book about partial differential equations. I liked it immediately.  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+So, welcome to my blog! Whether you reached this page by chance or your own will, I hope this place can stimulate your curiosity. I am Giacomo Vecchiato, I love the small, simple things that daily life gives and mathematics. Currently, I am a Data Scientist for a private company, but a studied maths for a long time. The result is that I have a PhD and somehow managed to do research in the States.  
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+So, what is this blog? Dear reader, if you are wandering why you should read some posts here, worry not. I have not written them for you. Here, I am just trying to have fun and write done my thoughts to stuff. You are more them welocme to give a look. Good luck.
