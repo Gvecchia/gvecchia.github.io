@@ -29,6 +29,6 @@ latest_posts:
 
 The quote is from Thoreau's book Walden, which I never read. I actually found it a Terence Tao's book about partial differential equations. I liked it immediately.  
 
-So, welcome to my blog! Whether you reached this page by chance or your own will, I hope this place can stimulate your curiosity. I am Giacomo Vecchiato, I love the small, simple things that daily life gives and mathematics. Currently, I am a Data Scientist for a private company, but a studied maths for a long time. The result is that I have a PhD and somehow managed to do research in the States.  
+So, welcome to my blog! Whether you reached this page by chance or your own will, I hope this place can stimulate your curiosity. I am Giacomo Vecchiato, I love the small, simple things of daily life. And mathematics. Currently, I am a Data Scientist for a private company, but I studied maths for a long time. The result is that I have a PhD, and somehow I managed to do research in the States.  
 
-So, what is this blog? Dear reader, if you are wandering why you should read some posts here, worry not. I have not written them for you. Here, I am just trying to have fun and write done my thoughts to stuff. You are more them welocme to give a look. Good luck.
+So, what is this blog? Dear reader, if you are wondering why you should read some posts here, worry not. I have not written them for you. Here, I am just trying to have fun, and write down my thoughts about stuff. You are more them welocme to give a look. Good luck.
