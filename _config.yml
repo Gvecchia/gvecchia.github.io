@@ -1,0 +1,9 @@
+title: "apple/pi"
+description: "A place to share my thoughts and ideas"
+lang: en
+url: "https://Gvecchia.github.io"
+baseurl: ""
+markdown: kramdown
+permalink: /posts/:title/
+timezone: UTC
+future: false
