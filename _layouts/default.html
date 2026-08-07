@@ -1,42 +1,43 @@
 <!doctype html>
 <html lang="{{ site.lang | default: 'en' }}">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title | default: site.title }} | {{ site.title }}</title>
-<meta name="description" content="{{ site.description }}">
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
 </head>
 <body>
-<div class="page-shell">
-<aside class="sidebar">
-<a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-<p class="tagline">{{ site.description }}</p>
-<nav aria-label="Main navigation">
-<a class="home-link" href="{{ '/' | relative_url }}">Home</a>
-<h2>Posts</h2>
-<ul class="post-menu">
-{% for post in site.posts %}
-<li>
-<a href="{{ post.url | relative_url }}"
-{% if page.url == post.url %}aria-current="page"{% endif %}>
-{{ post.title }}
-</a>
-</li>
-{% endfor %}
-</ul>
-</nav>
-</aside>
-<main class="content">
-<header class="page-header">
-<h1>{{ page.title | default: site.title }}</h1>
-{% if page.date %}
-<p class="post-date">{{ page.date | date: "%d %B %Y" }}</p>
-{% endif %}
-</header>
-{{ content }}
-</main>
-</div>
+    <div class="page-shell">
+        <aside class="sidebar">
+            <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <p class="tagline">{{ site.description }}</p>
+
+            <nav aria-label="Main navigation">
+                <a class="home-link" href="{{ '/' | relative_url }}">Home</a>
+                <h2>Posts</h2>
+                <ul class="post-menu">
+                    {% for post in site.posts %}
+                    <li>
+                        <a href="{{ post.url | relative_url }}"
+                            {% if page.url == post.url %}aria-current="page"{% endif %}>
+                            {{ post.title }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <header class="page-header">
+                <h1>{{ page.title | default: site.title }}</h1>
+                {% if page.date %}
+                    <p class="post-date">{{ page.date | date: "%d %B %Y" }}</p>
+                {% endif %}
+            </header>
+            {{ content }}
+        </main>
+    </div>
 </body>
 </html>
